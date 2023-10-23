@@ -12,7 +12,7 @@
                 Аторизация
               </h1>
               <input class="form-control mb-3" placeholder="Логин" type="text" name="" id="">
-              <input class="form-control mb-3" placeholder="Пароль" type="text" name="" id="">
+              <input class="form-control mb-3" placeholder="Пароль" type="password" name="" id="">
             </div>
           </div>
           <div class="d-flex justify-content-center w-100 px-3 mb-5" >
