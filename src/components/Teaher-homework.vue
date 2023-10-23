@@ -1,21 +1,21 @@
 <template>
   <div class="">
     <h1 class="mb-5">Домашние работы</h1>
-    <ul v-for="(homework,index) in homeworks" :key="index" class="homework-list d-flex justify-content-around p-3 custom-shadow-1">
+    <ul v-for="(homework,index) in homeworks" :key="index" class="homework-list d-flex justify-content-around p-3 custom-shadow-1 mb-3">
       <li class="d-flex flex-column">
-        <div class="">Тема</div>
+        <div class="mb-2">Тема</div>
         <div class="">{{homework.title}}</div>
       </li>
       <li class="d-flex flex-column">
-        <div class="">Студент</div>
+        <div class="mb-2">Студент</div>
         <div class="">{{homework.student}}</div>
       </li>
       <li class="d-flex flex-column">
-        <div class="">Дата</div>
+        <div class="mb-2">Дата</div>
         <div class="">{{homework.date}}</div>
       </li>
       <li class="d-flex flex-column">
-        <div class="">Файл</div>
+        <div class="mb-2">Файл</div>
         <div class="">{{homework.file}}</div>
       </li>
     </ul>
